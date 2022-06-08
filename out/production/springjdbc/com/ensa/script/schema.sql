@@ -1,0 +1,38 @@
+
+
+CREATE TABLE livre
+(
+    id   INT AUTO_INCREMENT PRIMARY KEY,
+
+    name VARCHAR(250) NOT NULL,
+    prix VARCHAR(250) NOT NULL,
+    auteur VARCHAR(250) NOT NULL,
+
+    code VARCHAR(250) NOT NULL,
+
+);
+CREATE TABLE chaise
+(
+    id   INT AUTO_INCREMENT PRIMARY KEY,
+
+    name VARCHAR(250) NOT NULL,
+    prix VARCHAR(250) NOT NULL,
+    hauteur NUMBER NOT NULL,
+
+
+    code VARCHAR(250) NOT NULL,
+
+);
+CREATE TABLE imprimante
+(
+    id   INT AUTO_INCREMENT PRIMARY KEY,
+
+    name VARCHAR(250) NOT NULL,
+    prix VARCHAR(250) NOT NULL,
+    type VARCHAR(250) NOT NULL,
+
+    code VARCHAR(250) NOT NULL,
+
+);
+
+
